@@ -7,4 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[:-n-1:-1]
+print(main("Shavkat",3))
